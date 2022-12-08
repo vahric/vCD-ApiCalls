@@ -4,7 +4,7 @@ https://<vCDLink>/cloudapi/1.0.0/orgVdcNetworks/urn:vcloud:network:<Network-GUID
 
 Method
 
-POST
+DELETE
 
 Headers
 
