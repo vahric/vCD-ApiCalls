@@ -1,0 +1,15 @@
+URL
+
+https://<vCDLink>/cloudapi/1.0.0/orgVdcNetworks/urn:vcloud:network:<Network-GUID>?force=true
+
+Method
+
+POST
+
+Headers
+
+Accept:application/*;version=37.0
+
+*Version can change
+
+x-vcloud-authorization:<key from auth session>
