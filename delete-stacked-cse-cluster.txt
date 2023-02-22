@@ -16,6 +16,8 @@ Accept:application/*;version=37.0
 
 x-vcloud-authorization:<key from auth session>
 
+*it should return 200 OK
+
 Then delete stacked cluster
 
 URL
@@ -35,3 +37,5 @@ Accept:application/*;version=37.0
 *Version can change
 
 x-vcloud-authorization:<key from auth session>
+
+*it should return 204 No Content
