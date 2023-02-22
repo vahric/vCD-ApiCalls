@@ -1,0 +1,37 @@
+First update status resolved
+
+URL
+
+https://<your.vcd.url>/cloudapi/1.0.0/entities/urn:vcloud:entity:vmware:capvcdCluster:83052036-779d-4166-a404-c8b46103db9a/resolve
+
+Method
+
+POST
+
+Headers
+
+Accept:application/*;version=37.0
+
+*Version can change
+
+x-vcloud-authorization:<key from auth session>
+
+Then delete stacked cluster
+
+URL
+
+https://<your.vcd.url>/cloudapi/1.0.0/entities/urn:vcloud:entity:vmware:capvcdCluster:83052036-779d-4166-a404-c8b46103db9
+
+*You can get the urn easly from More > Kubernetes Container Clusters > Get in to related Cluster and from Overview > vApp Details > Cluster ID
+
+Method
+
+DELETE
+
+Headers
+
+Accept:application/*;version=37.0
+
+*Version can change
+
+x-vcloud-authorization:<key from auth session>

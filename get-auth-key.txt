@@ -1,0 +1,23 @@
+URL
+
+https://<your.vcd.url>/api/sessions
+
+Method
+
+POST
+
+Authorization
+
+Type:Basic Auth
+Username:xxxx
+Password:password
+
+Headers
+
+Accept:application/*;version=37.0
+
+*Version can change
+
+Note the auth key
+
+x-vcloud-authorization:<key from auth session>

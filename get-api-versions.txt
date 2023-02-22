@@ -1,0 +1,11 @@
+URL
+
+https://<your.vcd.url>/api/versions
+
+Method
+
+GET
+
+Headers
+
+N/A
